@@ -2,8 +2,6 @@
 wordpress:
   service:
     type: ClusterIP
-  image:
-    registry: aegir:5000
   wordpressUsername: runejuhl
   wordpressPassword: "aBadPassword"
   existingSecret: ""
